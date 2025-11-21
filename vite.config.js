@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 import assertRemove from 'destam-dom/transform/assertRemove';
 import compileHTMLLiteral from 'destam-dom/transform/htmlLiteral';
-import path from 'node:path';
 
 const createTransform = (name, transform, jsx, options) => ({
   name,
