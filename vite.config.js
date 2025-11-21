@@ -45,9 +45,6 @@ export default defineConfig({
     root: './',
     plugins,
     resolve: {
-        alias: {
-            'destamatic-ui': path.resolve(__dirname, 'node_modules/destamatic-ui/index.js'),
-        },
         extensions: ['.js', '.ts', '.tsx', '.jsx'],
     },
     server: {
